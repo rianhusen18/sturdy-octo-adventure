@@ -133,7 +133,7 @@ class _HomePageState extends State<HomePage> {
             ),
 /** Icons */
             Padding(
-              padding: EdgeInsets.symmetric(
+              padding: const EdgeInsets.symmetric(
                 vertical: 8.0,
                 horizontal: 16.0,
               ),
@@ -209,7 +209,7 @@ class _CustomButtonState extends State<CustomButton> {
     debugPrint('${DateTime.now()} - onBuild - ${widget.text} - $_isOn');
     return InkWell(
       child: Padding(
-        padding: EdgeInsets.all(8.0),
+        padding: const EdgeInsets.all(8.0),
         child: Column(
           children: <Widget>[
             Icon(
